@@ -5,9 +5,10 @@ import Pint from "../assets/Pinterest.svg"
 import twitter from "../assets/Twitter.svg"
 import facebook from "../assets/Facebook.svg"
 
-const Menu = () => {
+// eslint-disable-next-line react/prop-types
+const Menu = ({isOpen}) => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${isOpen ? styles.menuOpen : ''}`}>
       <div className={styles.menuLink}>Sign in </div>
       <div className={styles.menuLink}>Shop</div>
       <div className={styles.menuLink}>Service</div>

@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
       {isOpen && (
-        <Menu className={isOpen ? styles.slideOut: styles.slideIn}/>
+        <Menu isOpen={isOpen}/>
       )}
     </>
   );

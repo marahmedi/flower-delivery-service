@@ -1,0 +1,77 @@
+/* .container{
+    
+} */
+.section{
+    padding: 3rem 2rem;
+    border-bottom: solid black 1px;
+}
+
+.section ul {
+    padding: 0;
+}
+
+.section li {
+    list-style: none;
+    margin-bottom: 0.1rem;
+}
+
+.heading{
+    color: #808080;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6.42vw;
+    letter-spacing: 0.8px;
+    margin-top: 0.6rem;
+}
+.heading2{
+    font-size: 3.7vw;
+    color: #808080;
+    margin-bottom: 0.3rem;
+}
+.info{
+    color: #121212;
+    letter-spacing: .03vw;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.socials img{
+    margin-right: 2rem;
+}
+
+.marginBottom li{
+    margin-bottom: 6.42vw;
+}
+.reminderP{
+    font-size: 4.3vw;
+    line-height: 130%;
+}
+.emailReminder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.emailReminder input{
+    padding: 0.8rem;
+    border: 1px gray solid;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    appearance: none;
+}
+.emailReminder input:focus{
+    border:blue;
+}
+.button{
+    text-transform: uppercase;
+    background-color: #121212;
+    color: white;
+    padding: 0.8rem;
+    font-weight: 600;
+}
