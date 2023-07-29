@@ -1,11 +1,9 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Homepage from '../src/pages/Homepage.jsx'
 
 function App() {
   return (
     <>
-    <Header/>
-    <Footer/>
+    <Homepage/>
     </>
   )
 }
